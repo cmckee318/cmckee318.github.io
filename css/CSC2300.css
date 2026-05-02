@@ -85,3 +85,10 @@ pre{
     border-radius: 20px;
     padding: 10px;
 }
+#Home-btn{
+    background-color: #43575c;
+    border-radius: 20px;
+    padding: 15px;
+    margin: 20px;
+    color: white;
+}
