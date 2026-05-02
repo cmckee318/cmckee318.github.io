@@ -8,19 +8,34 @@
 
 <body>
 <div class="heading">
-    <h1>"Kaneless Kane"</h1>
-    <h3>CSC 2300 group Raspberry Pi project</h3>
+    <h1>"KANE-LESS KANE"</h1>
+    <h3>CSC 2300 GROUP RASPBERRY PI PROJECT</h3>
+    <div id="description">
+        <h4><b>DESCRIPTION:</b></h4>
+        <p>
+            Our project is a “Kane-less Kane” a handheld device designed to help detect obstacles for visually impaired
+            users.
+            We used a <b>Raspberry Pi</b>, a <b>TF-Luna LiDAR sensor</b>, and a <b>Speaker</b> for audio feedback.
+            The TF-Luna LiDAR measures distance using a laser.
+            It sends distance data to the Raspberry Pi through a communication interface (UART serial).
+            The Raspberry Pi processes that data in real time.
+            When an object gets too close, the system triggers a sound alert through the speaker.
+        </p>
+    </div>
 </div>
 
-<div class="container">
-    <img src="images/Kane1.jpg" style="width:30%">
-    <img src="images/Kane2.jpg" style="width:30%">
-    <img src="images/Kane3.jpg" style="width:30%">
+<div class="imgContain">
+    <h2><b>PHOTOS:</b></h2>
+    <div class="imageContainer">
+        <img src="images/Kane1.jpg" style="width:30%">
+        <img src="images/Kane2.jpg" style="width:30%">
+        <img src="images/Kane3.jpg" style="width:30%">
+    </div>
 </div>
 
-<div class="container">
-    <h2>Code:</h2>
-        <pre>
+<div class="codeContain">
+    <h2><b>CODE:</b></h2>
+    <pre>
             <code>
 
 import serial
