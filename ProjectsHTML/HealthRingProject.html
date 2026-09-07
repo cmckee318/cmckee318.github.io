@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HealthRing</title>
+    <link href="../css/Projects.css" rel="stylesheet">
+    <link href="../css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+<div class="heading">
+    <h1>Health Ring</h1>
+    <div id="description">
+        <h4><b>DESCRIPTION:</b></h4>
+        <p>
+            This project is a Android app that uses a Colmi Health ring to track my fitness all in one app.
+            I used a <b>Colmi Ring</b> as a base, then used <b>Android Studio</b> for making the app
+        </p>
+    </div>
+</div>
+
+<div class="imgContain">
+    <h2><b>PHOTOS:</b></h2>
+    <div class="imageContainer" style="justify-content: center;">
+        <img src="../images/HRApp.jpg"style ="height: 100%">
+    </div>
+    <div class="imageContainer" style="justify-content: center;">
+        <img src="../images/ColmiRing.jpg">
+    </div>
+</div>
+
+<div>
+    <button id="Home-btn"><b>HOME</b></button>
+</div>
+
+<script>
+    document.getElementById("Home-btn").addEventListener("click", function () {
+        location.href = "../index.html";
+    });
+</script>
+</body>
+</html>

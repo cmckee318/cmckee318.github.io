@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Ubuntu Server</title>
+    <link href="../css/Projects.css" rel="stylesheet">
+    <link href="../css/bootstrap.min.css" rel="stylesheet" >
+</head>
+<body>
+<div class="heading">
+    <h1>Ubuntu Media Server</h1>
+    <div id="description">
+        <h4><b>DESCRIPTION:</b></h4>
+        <p>
+            This project is a home media server built in Ubuntu Linux that holds files, pictures, movies, and websites for me to use.
+            I used old computer parts <b>Ubuntu Server</b> OS as a base, <b>Jellyfin</b> for movies, <b>NextCloud</b> for files, <b>NGINX</b> for websites, and
+            <b>Tailscale</b> for a VPN.
+            Each program is run on a different port and through the Tailscale VPN IP address of the server I can access
+            all programs from any device that is connected to the VPN
+            Also
+        </p>
+    </div>
+</div>
+
+<div class="imgContain">
+    <h2><b>PHOTOS:</b></h2>
+    <div class="imageContainer">
+        <img src="../images/Jellyfin.jpg" style="width:30%">
+        <img src="../images/Nextcloud.jpg" style="width:30%">
+        <img src="../images/Website.jpg" style="width:30%">
+    </div>
+</div>
+<div class="imgContain">
+    <h2><b>SERVER:</b></h2>
+    <div class="imageContainer">
+        <img src="../images/Server001.jpg" style="width:45%">
+        <img src="../images/Server002.jpg" style="width:45%">
+    </div>
+    <p class = "imgFootnote">(left) had to use GPU power cable from main PC for setup to display because there are no integrated graphics for the cpu I used</p>
+    <p class = "imgFootnote">(right) had to wire up light switch for a power button for ease of use when I left for college</p>
+</div>
+
+
+<div>
+    <button id="Home-btn"><b>HOME</b></button>
+</div>
+
+<script>
+    document.getElementById("Home-btn").addEventListener("click", function() {
+        location.href="../index.html";
+    });
+</script>
+</body>
+</html>
