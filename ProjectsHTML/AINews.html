@@ -22,23 +22,29 @@
     </div>
 </div>
 
+<!--<div class="imgContain">-->
+<!--    <h2><b>UML PHOTO:</b></h2>-->
+<!--    <div class="imageContainer">-->
+<!--        <img src="../images/" style="width:30%">-->
+<!--    </div>-->
+<!--</div>-->
 <div class="imgContain">
-    <h2><b>PHOTOS:</b></h2>
-    <div class="imageContainer">
-        <img src="../images/" style="width:30%">
-        <img src="../images/" style="width:30%">
-    </div>
+        <button id = "News-btn">Link for mock AINEWS page</button>
+        <p>Webpage runs how it should on githubs page but backend server and ollama do not so this just shows the final product</p>
 </div>
 
 
 <div>
-    <button id="Home-btn"><b>HOME</b></button>
+    <button id="Home-btn" style='color: white'><b>HOME</b></button>
 </div>
 
 <script>
     document.getElementById("Home-btn").addEventListener("click", function() {
         location.href="../index.html";
     });
+    document.getElementById("News-btn").addEventListener("click", function() {
+        location.href="https://cmckee318.github.io/AINews/";
+    })
 </script>
 </body>
 </html>
