@@ -152,6 +152,10 @@ button:hover{
     background-color: var(--blue);
 }
 
+#Home-btn{
+    color: white;
+}
+
 /* ---------- Headings inside content ---------- */
 
 h2{
